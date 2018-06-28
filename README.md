@@ -25,7 +25,7 @@ Update system packages and ensure virtualenv is installed:
 
 Make sure the local WAVI daemon running is at least version 12.2.4 (120204)
 
-    $ wavi-cli getinfo | grep version
+    $ wavi/wavi-cli getinfo | grep version
 
 ### 2. Install Sentinel
 
