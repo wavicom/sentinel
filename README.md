@@ -85,4 +85,4 @@ Specifically:
 
 ### License
 
-Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as WaviCore itself. See [LICENSE](LICENSE) for more info.
