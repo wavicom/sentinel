@@ -21,7 +21,7 @@ Make sure Python version 2.7.x or above is installed:
 Update system packages and ensure virtualenv is installed:
 
     $ sudo apt-get update
-    $ sudo apt-get -y install python-virtualenv
+    $ sudo apt-get -y install python-virtualenv virtualenv
 
 Make sure the local WAVI daemon running is at least version 12.2.4 (120204)
 
@@ -43,7 +43,7 @@ Set up a crontab entry to call Sentinel every minute:
 
 In the crontab editor, add the lines below, replacing '/root/sentinel' to the path where you cloned sentinel to:
 
-    * * * * * cd /root/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
+    * * * * * cd /root/sentinel && SENTINEL_DEBUG=1 ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1
 
 ### 4. Test the Configuration
 
