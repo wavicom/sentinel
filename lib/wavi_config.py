@@ -34,7 +34,7 @@ class WaviConfig():
         creds = {key: value for (key, value) in match}
 
         # standard Wavi defaults...
-        default_port = 9998 if (network == 'mainnet') else 19998
+        default_port = 9984 if (network == 'mainnet') else 19984
 
         # use default port for network if not specified in wavi.conf
         if not ('port' in creds):
