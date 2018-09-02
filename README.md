@@ -4,7 +4,7 @@ An all-powerful toolset for WAVI.
 
 [![Build Status](https://travis-ci.org/dashpay/sentinel.svg?branch=master)](https://travis-ci.org/dashpay/sentinel)
 
-Sentinel is an autonomous agent for persisting, processing and automating WAVI V12.2.4 governance objects and tasks, and for expanded functions in the upcoming WAVI V13 release (Evolution).
+Sentinel is an autonomous agent for persisting, processing and automating WAVI V12.2.4 governance objects and tasks.
 
 Sentinel is implemented as a Python application that binds to a local version 12.2.4 wavid instance on each WAVI V12.2.4 Masternode.
 
